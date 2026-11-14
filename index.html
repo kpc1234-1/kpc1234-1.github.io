@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOVE Studio</title>
+<style>
+  :root { --bg: #f6f8fc; --card: #ffffff; --text: #2e3350; --muted: #6b7290; --accent: #6fa2bd; }
+  body { margin: 0; background: linear-gradient(#e3f0fb, #f4f2ef 55%, #fbe9dd); min-height: 100vh; color: var(--text); font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; line-height: 1.7; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; text-align: center; }
+  .logo { width: 260px; max-width: 70%; margin: 8px auto 32px; display: block; }
+  .card { background: var(--card); border-radius: 20px; padding: 28px 24px; box-shadow: 0 4px 16px rgba(46, 51, 80, 0.08); text-align: left; display: flex; gap: 20px; align-items: center; }
+  .card img { width: 96px; height: 96px; border-radius: 22px; flex: none; }
+  h1 { font-size: 1.3rem; margin: 0 0 4px; }
+  p { margin: 0 0 6px; font-size: 0.97rem; }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  a { color: var(--accent); }
+  footer { margin-top: 32px; color: var(--muted); font-size: 0.88rem; }
+  @media (max-width: 480px) { .card { flex-direction: column; text-align: center; } }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="nove-logo.png" alt="NOVE">
+
+  <div class="card">
+    <img src="color-sudoku-icon.png" alt="Color Sudoku 아이콘">
+    <div>
+      <h1>컬러 스도쿠 · Color Sudoku</h1>
+      <p>파스텔 색 숫자로 즐기는 스도쿠. 줄을 맞출 때마다 도트 고양이가 놀러 와요.</p>
+      <p class="muted">A pastel sudoku with pixel cats. Android · Google Play</p>
+      <p><a href="privacy.html">개인정보처리방침 / Privacy Policy</a></p>
+    </div>
+  </div>
+
+  <footer>
+    NOVE Studio · <a href="mailto:novestudio.dev@gmail.com">novestudio.dev@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
